@@ -13,7 +13,7 @@ describe('googleGrecaptcha provider', function (){
     });
 
     it('should add script element with correct url', function (){
-      expect($document.find('body').html()).to.contain('<script type="application/javascript" src="https://www.recaptcha.com/recaptcha/api.js?onload=recaptchaOnloadCallback&amp;render=explicit"></script>');
+      expect($document.find('body').html()).to.contain('<script type="application/javascript" src="https://www.recaptcha.net/recaptcha/api.js?onload=recaptchaOnloadCallback&amp;render=explicit"></script>');
     });
 
     it('should resolve promise', function (done){
