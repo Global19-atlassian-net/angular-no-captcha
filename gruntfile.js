@@ -27,7 +27,7 @@ module.exports = function (grunt){
         afterBump: ['uglify:all', 'gitcommit:build'],
         tagName: 'v<%= version %>',
         github: {
-          repo: 'CodeDistillery/angular-no-captcha',
+          repo: 'HGNC/angular-no-captcha',
           accessTokenVar: 'GITHUB_ACCESS_TOKEN'
         }
       }
